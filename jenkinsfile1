@@ -1,0 +1,17 @@
+pipeline{
+    stages
+         }
+        {
+state (build)
+        }
+echo "code build"
+       {
+state (test)
+       }
+echo "QA test"
+       {
+state (deploy)
+       }
+echo "code deploy"
+       }
+
